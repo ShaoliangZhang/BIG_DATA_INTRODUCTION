@@ -1,0 +1,173 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.security.authentication.util.KerberosUtil (file:/usr/local/hadoop/share/hadoop/common/lib/hadoop-auth-2.7.4.jar) to method sun.security.krb5.Config.getInstance()
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.security.authentication.util.KerberosUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+17/11/01 14:43:47 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/11/01 14:43:48 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+17/11/01 14:43:48 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+17/11/01 14:43:48 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+17/11/01 14:43:49 INFO mapred.FileInputFormat: Total input paths to process : 1
+17/11/01 14:43:49 INFO mapreduce.JobSubmitter: number of splits:1
+17/11/01 14:43:49 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local680241504_0001
+17/11/01 14:43:49 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+17/11/01 14:43:49 INFO mapreduce.Job: Running job: job_local680241504_0001
+17/11/01 14:43:49 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+17/11/01 14:43:49 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+17/11/01 14:43:49 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/11/01 14:43:49 INFO mapred.LocalJobRunner: Waiting for map tasks
+17/11/01 14:43:49 INFO mapred.LocalJobRunner: Starting task: attempt_local680241504_0001_m_000000_0
+17/11/01 14:43:50 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/11/01 14:43:50 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/11/01 14:43:50 INFO mapred.MapTask: Processing split: hdfs://localhost:9000/input/records.json:0+6825
+17/11/01 14:43:50 INFO mapred.MapTask: numReduceTasks: 1
+17/11/01 14:43:50 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/11/01 14:43:50 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/11/01 14:43:50 INFO mapred.MapTask: soft limit at 83886080
+17/11/01 14:43:50 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/11/01 14:43:50 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/11/01 14:43:50 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/11/01 14:43:50 INFO streaming.PipeMapRed: PipeMapRed exec [/usr/homework/MapReduce Assignments(data)/./problem2/python/problem2Mapper.py]
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+17/11/01 14:43:50 INFO Configuration.deprecation: map.input.start is deprecated. Instead, use mapreduce.map.input.start
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.local.dir is deprecated. Instead, use mapreduce.cluster.local.dir
+17/11/01 14:43:50 INFO Configuration.deprecation: map.input.file is deprecated. Instead, use mapreduce.map.input.file
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+17/11/01 14:43:50 INFO Configuration.deprecation: map.input.length is deprecated. Instead, use mapreduce.map.input.length
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+17/11/01 14:43:50 INFO Configuration.deprecation: user.name is deprecated. Instead, use mapreduce.job.user.name
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/11/01 14:43:50 INFO streaming.PipeMapRed: R/W/S=1/0/0 in:NA [rec/s] out:NA [rec/s]
+17/11/01 14:43:50 INFO streaming.PipeMapRed: R/W/S=10/0/0 in:NA [rec/s] out:NA [rec/s]
+17/11/01 14:43:50 INFO streaming.PipeMapRed: Records R/W=39/1
+17/11/01 14:43:50 INFO streaming.PipeMapRed: MRErrorThread done
+17/11/01 14:43:50 INFO streaming.PipeMapRed: mapRedFinished
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: 
+17/11/01 14:43:50 INFO mapred.MapTask: Starting flush of map output
+17/11/01 14:43:50 INFO mapred.MapTask: Spilling map output
+17/11/01 14:43:50 INFO mapred.MapTask: bufstart = 0; bufend = 7555; bufvoid = 104857600
+17/11/01 14:43:50 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214244(104856976); length = 153/6553600
+17/11/01 14:43:50 INFO mapred.MapTask: Finished spill 0
+17/11/01 14:43:50 INFO mapred.Task: Task:attempt_local680241504_0001_m_000000_0 is done. And is in the process of committing
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: Records R/W=39/1
+17/11/01 14:43:50 INFO mapred.Task: Task 'attempt_local680241504_0001_m_000000_0' done.
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: Finishing task: attempt_local680241504_0001_m_000000_0
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: map task executor complete.
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: Starting task: attempt_local680241504_0001_r_000000_0
+17/11/01 14:43:50 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/11/01 14:43:50 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/11/01 14:43:50 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6563c340
+17/11/01 14:43:50 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=363285696, maxSingleShuffleLimit=90821424, mergeThreshold=239768576, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+17/11/01 14:43:50 INFO reduce.EventFetcher: attempt_local680241504_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+17/11/01 14:43:50 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local680241504_0001_m_000000_0 decomp: 7673 len: 7677 to MEMORY
+17/11/01 14:43:50 INFO reduce.InMemoryMapOutput: Read 7673 bytes from map-output for attempt_local680241504_0001_m_000000_0
+17/11/01 14:43:50 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 7673, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->7673
+17/11/01 14:43:50 INFO reduce.EventFetcher: EventFetcher is interrupted.. Returning
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/11/01 14:43:50 INFO reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+17/11/01 14:43:50 INFO mapred.Merger: Merging 1 sorted segments
+17/11/01 14:43:50 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 7668 bytes
+17/11/01 14:43:50 INFO reduce.MergeManagerImpl: Merged 1 segments, 7673 bytes to disk to satisfy reduce memory limit
+17/11/01 14:43:50 INFO reduce.MergeManagerImpl: Merging 1 files, 7677 bytes from disk
+17/11/01 14:43:50 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+17/11/01 14:43:50 INFO mapred.Merger: Merging 1 sorted segments
+17/11/01 14:43:50 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 7668 bytes
+17/11/01 14:43:50 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/11/01 14:43:50 INFO streaming.PipeMapRed: PipeMapRed exec [/usr/homework/MapReduce Assignments(data)/./problem2/python/problem2Reducer.py]
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+17/11/01 14:43:50 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+17/11/01 14:43:50 INFO streaming.PipeMapRed: R/W/S=1/0/0 in:NA [rec/s] out:NA [rec/s]
+17/11/01 14:43:50 INFO streaming.PipeMapRed: R/W/S=10/0/0 in:NA [rec/s] out:NA [rec/s]
+17/11/01 14:43:50 INFO streaming.PipeMapRed: MRErrorThread done
+17/11/01 14:43:50 INFO streaming.PipeMapRed: Records R/W=39/1
+17/11/01 14:43:50 INFO mapreduce.Job: Job job_local680241504_0001 running in uber mode : false
+17/11/01 14:43:50 INFO mapreduce.Job:  map 100% reduce 0%
+17/11/01 14:43:50 INFO streaming.PipeMapRed: mapRedFinished
+17/11/01 14:43:51 INFO mapred.Task: Task:attempt_local680241504_0001_r_000000_0 is done. And is in the process of committing
+17/11/01 14:43:51 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/11/01 14:43:51 INFO mapred.Task: Task attempt_local680241504_0001_r_000000_0 is allowed to commit now
+17/11/01 14:43:51 INFO output.FileOutputCommitter: Saved output of task 'attempt_local680241504_0001_r_000000_0' to hdfs://localhost:9000/usr/homework/output/_temporary/0/task_local680241504_0001_r_000000
+17/11/01 14:43:51 INFO mapred.LocalJobRunner: Records R/W=39/1 > reduce
+17/11/01 14:43:51 INFO mapred.Task: Task 'attempt_local680241504_0001_r_000000_0' done.
+17/11/01 14:43:51 INFO mapred.LocalJobRunner: Finishing task: attempt_local680241504_0001_r_000000_0
+17/11/01 14:43:51 INFO mapred.LocalJobRunner: reduce task executor complete.
+17/11/01 14:43:51 INFO mapreduce.Job:  map 100% reduce 100%
+17/11/01 14:43:51 INFO mapreduce.Job: Job job_local680241504_0001 completed successfully
+17/11/01 14:43:51 INFO mapreduce.Job: Counters: 35
+	File System Counters
+		FILE: Number of bytes read=331138
+		FILE: Number of bytes written=1031871
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=13650
+		HDFS: Number of bytes written=10095
+		HDFS: Number of read operations=13
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=39
+		Map output records=39
+		Map output bytes=7555
+		Map output materialized bytes=7677
+		Input split bytes=92
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8
+		Reduce shuffle bytes=7677
+		Reduce input records=39
+		Reduce output records=31
+		Spilled Records=78
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=53
+		Total committed heap usage (bytes)=282451968
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=6825
+	File Output Format Counters 
+		Bytes Written=10095
+17/11/01 14:43:51 INFO streaming.StreamJob: Output directory: /usr/homework/output
+
+[['order', '32', '130057', 'O', '208660.75', '1995-07-16', '2-HIGH', 'Clerk#000000616', '0', 'ise blithely bold, regular requests. quickly unusual dep'], 'line_item', '32', '197921', '441', '2', '32', '64605.44', '0.02', '0.00', 'N', 'O', '1995-08-14', '1995-10-07', '1995-08-27', 'COLLECT COD', 'AIR', 'lithely regular deposits. fluffily ']	
+[['order', '32', '130057', 'O', '208660.75', '1995-07-16', '2-HIGH', 'Clerk#000000616', '0', 'ise blithely bold, regular requests. quickly unusual dep'], 'line_item', '32', '82704', '7721', '1', '28', '47227.60', '0.05', '0.08', 'N', 'O', '1995-10-23', '1995-08-27', '1995-10-26', 'TAKE BACK RETURN', 'TRUCK', 'sleep quickly. req']	
+[['order', '32', '130057', 'O', '208660.75', '1995-07-16', '2-HIGH', 'Clerk#000000616', '0', 'ise blithely bold, regular requests. quickly unusual dep'], 'line_item', '32', '2743', '7744', '4', '4', '6582.96', '0.09', '0.03', 'N', 'O', '1995-08-04', '1995-10-01', '1995-09-03', 'NONE', 'REG AIR', 'e slyly final pac']	
+[['order', '32', '130057', 'O', '208660.75', '1995-07-16', '2-HIGH', 'Clerk#000000616', '0', 'ise blithely bold, regular requests. quickly unusual dep'], 'line_item', '32', '11615', '4117', '6', '6', '9159.66', '0.04', '0.03', 'N', 'O', '1995-07-21', '1995-09-23', '1995-07-25', 'COLLECT COD', 'RAIL', ' gifts cajole carefully.']	
+[['order', '32', '130057', 'O', '208660.75', '1995-07-16', '2-HIGH', 'Clerk#000000616', '0', 'ise blithely bold, regular requests. quickly unusual dep'], 'line_item', '32', '85811', '8320', '5', '44', '79059.64', '0.05', '0.06', 'N', 'O', '1995-08-28', '1995-08-20', '1995-09-14', 'DELIVER IN PERSON', 'AIR', 'symptotes nag according to the ironic depo']	
+[['order', '32', '130057', 'O', '208660.75', '1995-07-16', '2-HIGH', 'Clerk#000000616', '0', 'ise blithely bold, regular requests. quickly unusual dep'], 'line_item', '32', '44161', '6666', '3', '2', '2210.32', '0.09', '0.02', 'N', 'O', '1995-08-07', '1995-10-07', '1995-08-23', 'DELIVER IN PERSON', 'AIR', ' express accounts wake according to the']	
+[['order', '1', '36901', 'O', '173665.47', '1996-01-02', '5-LOW', 'Clerk#000000951', '0', 'nstructions sleep furiously among '], 'line_item', '1', '155190', '7706', '1', '17', '21168.23', '0.04', '0.02', 'N', 'O', '1996-03-13', '1996-02-12', '1996-03-22', 'DELIVER IN PERSON', 'TRUCK', 'egular courts above the']	
+[['order', '1', '36901', 'O', '173665.47', '1996-01-02', '5-LOW', 'Clerk#000000951', '0', 'nstructions sleep furiously among '], 'line_item', '1', '67310', '7311', '2', '36', '45983.16', '0.09', '0.06', 'N', 'O', '1996-04-12', '1996-02-28', '1996-04-20', 'TAKE BACK RETURN', 'MAIL', 'ly final dependencies: slyly bold ']	
+[['order', '1', '36901', 'O', '173665.47', '1996-01-02', '5-LOW', 'Clerk#000000951', '0', 'nstructions sleep furiously among '], 'line_item', '1', '63700', '3701', '3', '8', '13309.60', '0.10', '0.02', 'N', 'O', '1996-01-29', '1996-03-05', '1996-01-31', 'TAKE BACK RETURN', 'REG AIR', 'riously. regular, express dep']	
+[['order', '1', '36901', 'O', '173665.47', '1996-01-02', '5-LOW', 'Clerk#000000951', '0', 'nstructions sleep furiously among '], 'line_item', '1', '2132', '4633', '4', '28', '28955.64', '0.09', '0.06', 'N', 'O', '1996-04-21', '1996-03-30', '1996-05-16', 'NONE', 'AIR', 'lites. fluffily even de']	
+[['order', '1', '36901', 'O', '173665.47', '1996-01-02', '5-LOW', 'Clerk#000000951', '0', 'nstructions sleep furiously among '], 'line_item', '1', '24027', '1534', '5', '24', '22824.48', '0.10', '0.04', 'N', 'O', '1996-03-30', '1996-03-14', '1996-04-01', 'NONE', 'FOB', ' pending foxes. slyly re']	
+[['order', '1', '36901', 'O', '173665.47', '1996-01-02', '5-LOW', 'Clerk#000000951', '0', 'nstructions sleep furiously among '], 'line_item', '1', '15635', '638', '6', '32', '49620.16', '0.07', '0.02', 'N', 'O', '1996-01-30', '1996-02-07', '1996-02-03', 'DELIVER IN PERSON', 'MAIL', 'arefully slyly ex']	
+[['order', '3', '123314', 'F', '193846.25', '1993-10-14', '5-LOW', 'Clerk#000000955', '0', 'sly final accounts boost. carefully regular ideas cajole carefully. depos'], 'line_item', '3', '183095', '650', '5', '28', '32986.52', '0.04', '0.00', 'R', 'F', '1993-12-14', '1994-01-10', '1994-01-01', 'TAKE BACK RETURN', 'FOB', 'ages nag slyly pending']	
+[['order', '3', '123314', 'F', '193846.25', '1993-10-14', '5-LOW', 'Clerk#000000955', '0', 'sly final accounts boost. carefully regular ideas cajole carefully. depos'], 'line_item', '3', '62143', '9662', '6', '26', '28733.64', '0.10', '0.02', 'A', 'F', '1993-10-29', '1993-12-18', '1993-11-04', 'TAKE BACK RETURN', 'RAIL', 'ges sleep after the caref']	
+[['order', '3', '123314', 'F', '193846.25', '1993-10-14', '5-LOW', 'Clerk#000000955', '0', 'sly final accounts boost. carefully regular ideas cajole carefully. depos'], 'line_item', '3', '29380', '1883', '4', '2', '2618.76', '0.01', '0.06', 'A', 'F', '1993-12-04', '1994-01-07', '1994-01-01', 'NONE', 'TRUCK', 'y. fluffily pending d']	
+[['order', '3', '123314', 'F', '193846.25', '1993-10-14', '5-LOW', 'Clerk#000000955', '0', 'sly final accounts boost. carefully regular ideas cajole carefully. depos'], 'line_item', '3', '128449', '3474', '3', '27', '39890.88', '0.06', '0.07', 'A', 'F', '1994-01-16', '1993-11-22', '1994-01-23', 'DELIVER IN PERSON', 'SHIP', 'nal foxes wake. ']	
+[['order', '3', '123314', 'F', '193846.25', '1993-10-14', '5-LOW', 'Clerk#000000955', '0', 'sly final accounts boost. carefully regular ideas cajole carefully. depos'], 'line_item', '3', '19036', '6540', '2', '49', '46796.47', '0.10', '0.00', 'R', 'F', '1993-11-09', '1993-12-20', '1993-11-24', 'TAKE BACK RETURN', 'RAIL', ' unusual accounts. eve']	
+[['order', '3', '123314', 'F', '193846.25', '1993-10-14', '5-LOW', 'Clerk#000000955', '0', 'sly final accounts boost. carefully regular ideas cajole carefully. depos'], 'line_item', '3', '4297', '1798', '1', '45', '54058.05', '0.06', '0.00', 'R', 'F', '1994-02-02', '1994-01-04', '1994-02-23', 'NONE', 'AIR', 'ongside of the furiously brave acco']	
+[['order', '2', '78002', 'O', '46929.18', '1996-12-01', '1-URGENT', 'Clerk#000000880', '0', ' foxes. pending accounts at the pending, silent asymptot'], 'line_item', '2', '106170', '1191', '1', '38', '44694.46', '0.00', '0.05', 'N', 'O', '1997-01-28', '1997-01-14', '1997-02-02', 'TAKE BACK RETURN', 'RAIL', 'ven requests. deposits breach a']	
+[['order', '5', '44485', 'F', '144659.20', '1994-07-30', '5-LOW', 'Clerk#000000925', '0', 'quickly. bold deposits sleep slyly. packages use slyly'], 'line_item', '5', '108570', '8571', '1', '15', '23678.55', '0.02', '0.04', 'R', 'F', '1994-10-31', '1994-08-31', '1994-11-20', 'NONE', 'AIR', 'ts wake furiously ']	
+[['order', '5', '44485', 'F', '144659.20', '1994-07-30', '5-LOW', 'Clerk#000000925', '0', 'quickly. bold deposits sleep slyly. packages use slyly'], 'line_item', '5', '37531', '35', '3', '50', '73426.50', '0.08', '0.03', 'A', 'F', '1994-08-08', '1994-10-13', '1994-08-26', 'DELIVER IN PERSON', 'AIR', 'eodolites. fluffily unusual']	
+[['order', '5', '44485', 'F', '144659.20', '1994-07-30', '5-LOW', 'Clerk#000000925', '0', 'quickly. bold deposits sleep slyly. packages use slyly'], 'line_item', '5', '123927', '3928', '2', '26', '50723.92', '0.07', '0.08', 'R', 'F', '1994-10-16', '1994-09-25', '1994-10-19', 'NONE', 'FOB', 'sts use slyly quickly special instruc']	
+[['order', '4', '136777', 'O', '32151.78', '1995-10-11', '5-LOW', 'Clerk#000000124', '0', 'sits. slyly regular warthogs cajole. regular, regular theodolites acro'], 'line_item', '4', '88035', '5560', '1', '30', '30690.90', '0.03', '0.08', 'N', 'O', '1996-01-10', '1995-12-14', '1996-01-18', 'DELIVER IN PERSON', 'REG AIR', '- quickly regular packages sleep. idly']	
+[['order', '7', '39136', 'O', '252004.18', '1996-01-10', '2-HIGH', 'Clerk#000000470', '0', 'ly special requests '], 'line_item', '7', '151894', '9440', '5', '38', '73943.82', '0.08', '0.01', 'N', 'O', '1996-02-11', '1996-02-24', '1996-02-18', 'DELIVER IN PERSON', 'TRUCK', 'ns haggle carefully ironic deposits. bl']	
+[['order', '7', '39136', 'O', '252004.18', '1996-01-10', '2-HIGH', 'Clerk#000000470', '0', 'ly special requests '], 'line_item', '7', '163073', '3074', '4', '28', '31809.96', '0.03', '0.04', 'N', 'O', '1996-03-21', '1996-04-08', '1996-04-20', 'NONE', 'FOB', '. slyly special requests haggl']	
+[['order', '7', '39136', 'O', '252004.18', '1996-01-10', '2-HIGH', 'Clerk#000000470', '0', 'ly special requests '], 'line_item', '7', '94780', '9799', '3', '46', '81639.88', '0.10', '0.07', 'N', 'O', '1996-01-15', '1996-03-27', '1996-02-03', 'COLLECT COD', 'MAIL', ' unusual reques']	
+[['order', '7', '39136', 'O', '252004.18', '1996-01-10', '2-HIGH', 'Clerk#000000470', '0', 'ly special requests '], 'line_item', '7', '145243', '7758', '2', '9', '11594.16', '0.08', '0.08', 'N', 'O', '1996-02-01', '1996-03-02', '1996-02-19', 'TAKE BACK RETURN', 'SHIP', 'es. instructions']	
+[['order', '7', '39136', 'O', '252004.18', '1996-01-10', '2-HIGH', 'Clerk#000000470', '0', 'ly special requests '], 'line_item', '7', '182052', '9607', '1', '12', '13608.60', '0.07', '0.03', 'N', 'O', '1996-05-07', '1996-03-13', '1996-06-03', 'TAKE BACK RETURN', 'FOB', 'ss pinto beans wake against th']	
+[['order', '7', '39136', 'O', '252004.18', '1996-01-10', '2-HIGH', 'Clerk#000000470', '0', 'ly special requests '], 'line_item', '7', '157238', '2269', '7', '5', '6476.15', '0.04', '0.02', 'N', 'O', '1996-02-10', '1996-03-26', '1996-02-13', 'NONE', 'FOB', 'ithely regula']	
+[['order', '7', '39136', 'O', '252004.18', '1996-01-10', '2-HIGH', 'Clerk#000000470', '0', 'ly special requests '], 'line_item', '7', '79251', '1759', '6', '35', '43058.75', '0.06', '0.03', 'N', 'O', '1996-01-16', '1996-02-23', '1996-01-22', 'TAKE BACK RETURN', 'FOB', 'jole. excuses wake carefully alongside of ']	
+[['order', '6', '55624', 'F', '58749.59', '1992-02-21', '4-NOT SPECIFIED', 'Clerk#000000058', '0', 'ggle. special, final requests are against the furiously specia'], 'line_item', '6', '139636', '2150', '1', '37', '61998.31', '0.08', '0.03', 'A', 'F', '1992-04-27', '1992-05-15', '1992-05-02', 'TAKE BACK RETURN', 'TRUCK', 'p furiously special foxes']
