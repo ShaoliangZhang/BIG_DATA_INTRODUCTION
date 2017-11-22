@@ -1,17 +1,18 @@
-#!usr/bin/env python
+#!/usr/bin/env python
+
 import sys
 
-code2id = {}
+code2ID = {}
 
 for line in sys.stdin:
-	line = strip()
-	ID,code = line.split('\t',1)
-	try:
-		if code not in id2code:
-			id2code[code] = ID
-		else:
-			pass
-	except ValueError:
-		pass
-for ID in code2ID:
-	print ID
+        line = line.strip()
+        code,ID = line.split('\t',1)
+        try:
+                if code not in code2ID:
+                        code2ID[code] = ID
+                else:
+                        pass
+        except ValueError:
+                pass
+for code in code2ID:
+        print code
