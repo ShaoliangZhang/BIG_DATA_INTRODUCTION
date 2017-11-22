@@ -5,12 +5,9 @@ import json
 for line in sys.stdin:
 	MaxI = 10
 	MaxJ = 10
-    # remove leading and trailing whitespace
 	line = line.strip()
 
-	# parse the line with json method
 	record = json.loads(line)
-
 	if record[0] == 'a':
 		i = record[1]
 		for j in range(MaxJ+1):
